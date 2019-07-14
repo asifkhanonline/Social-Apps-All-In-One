@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:weightSum="4"
+    android:background="@android:color/white"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <TextView
+            android:background="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="10dp"
+            android:baselineAligned="false"
+            android:text="MultiApps"
+            android:textAlignment="gravity"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+            <ImageButton
+                android:background="@drawable/ic_036_facebook"
+                android:id="@+id/b1"
+                android:layout_margin="20dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+            <ImageButton
+                android:background="@drawable/ic_029_instagram"
+                android:id="@+id/b2"
+                android:layout_margin="20dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+            <ImageButton
+                android:layout_margin="20dp"
+                android:background="@drawable/ic_008_twitter"
+                android:id="@+id/b3"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+           android:gravity="center">
+            <ImageButton
+                android:background="@drawable/ic_027_linkedin"
+                android:id="@+id/b4"
+                android:layout_margin="20dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+            <ImageButton
+                android:background="@drawable/ic_001_youtube"
+                android:id="@+id/b5"
+                android:layout_margin="20dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+            <ImageButton
+                android:background="@drawable/ic_005_whatsapp"
+                android:id="@+id/b6"
+                android:layout_margin="20dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+           android:gravity="center">
+            <ImageButton
+                android:background="@drawable/ic_003_wordpress"
+                android:id="@+id/b7"
+                android:layout_margin="20dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+            <ImageButton
+                android:background="@drawable/ic_049_amazon"
+                android:id="@+id/b8"
+                android:layout_margin="20dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+            <ImageButton
+                android:background="@drawable/ic_033_google_plus"
+                android:id="@+id/b9"
+                android:layout_margin="20dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+           android:gravity="center">
+            <ImageButton
+                android:background="@drawable/ic_046_bing"
+                android:id="@+id/b10"
+                android:layout_margin="20dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+            <ImageButton
+                android:background="@drawable/ic_023_paypal"
+                android:id="@+id/b11"
+                android:layout_margin="20dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+            <ImageButton
+                android:layout_margin="20dp"
+                android:background="@drawable/ic_019_quora"
+                android:id="@+id/b12"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+        </LinearLayout>
+
+    </LinearLayout>
